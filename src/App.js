@@ -9,7 +9,24 @@ export default function App() {
           <Dictionary defaultKeyword="Sky" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Muzhda Wafa</small>
+          <small>
+            This project was coded by Muzhda Wafa and is{" "}
+              <a
+               href="https://github.com/muzhiwa/dictionary-app"
+               target="_blank"
+               rel="noopener noreferrer"
+              >
+               open-sourced
+              </a>{" "}
+            on GitHub and hosted on{" "}
+              <a
+                href="https://muzhda-dictionary-app.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+              Netlify
+              </a>
+          </small>
         </footer>
       </div>
     </div>
